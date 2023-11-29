@@ -12,6 +12,12 @@ header {
     padding: 20px;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
 nav ul {
     list-style: none;
 }
@@ -27,3 +33,15 @@ nav ul li a {
 }
 
 /* Estilos adicionais conforme necessário */
+
+.social-button {
+    color: #333;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.lattes {
+    color: white;
+    font-size: 20px;
+    padding-right: 5px;
+}
