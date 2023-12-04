@@ -1,0 +1,56 @@
+{
+    "about": [
+        {
+            "text": "Hello! I'm Reinaldo, a passionate technology enthusiast pursuing a degree in Computer Information Systems at the esteemed Federal University of Viçosa (UFV)."
+        }
+    ],
+
+    "background": [
+        {
+            "text": "Text."
+        }
+    ],
+
+    "resume": [
+        {
+            "link": "curriculum_pt_en.pdf"
+        }
+    ],
+
+    "languages": [
+        {
+            "items": "C/C++, Python, PHP, Javascript, MySQL & PL/pgSQL"
+        }
+    ],
+
+    "tools": [
+        {
+            "items": "Bash, Git & Github, Pytorch"
+        }
+    ],
+
+    "featured projects": [
+        {
+            "title": "Enhancing green coffee quality assessment through deep learning",
+            "description": "Study of deep learning methods for green coffee quality assessment.",
+            "link": "https://drive.google.com/file/d/1bICsPkemnyb5n1N2ySK9iOeOBTYwTsdo/view?usp=sharing",
+            "img": "/assets/images/coffee.png"
+        }
+    ],
+
+    "other projects": [
+        {
+            "title": "Projeto 1",
+            "description": "Descrição do Projeto 1",
+            "link": "https://exemplo.com/projeto1",
+            "img": ""
+        }
+    ],
+
+    "publicacoes": [
+        {
+            "title": "Publicação 1",
+            "link": "https://exemplo.com/publicacao1"
+        }
+    ]
+}
