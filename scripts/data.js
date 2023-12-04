@@ -49,8 +49,8 @@ function preencherDados(data) {
 
   // Preencher a seção "Publications"
   var publicationsHTML = '<h2>Publications</h2><ul>';
-  data.publicacoes.forEach(function(publication) {
-      publicationsHTML += '<li>' + publication.title + '<a href="' + publication.link + '" target="_blank" rel="noopener noreferrer">&nbsp;[Link]</a></li>';
+  data.publications.forEach(function(publication) {
+      publicationsHTML += '<li>' + publication.title + '&nbsp;<a href="' + publication.link + '" target="_blank" rel="noopener noreferrer">[Link]</a></li>';
   });
   publicationsHTML += '</ul>';
   document.getElementById('publications').innerHTML = publicationsHTML;

@@ -1,47 +1,91 @@
-/* Estilos básicos */
-
-body {
-    font-family: Arial, sans-serif;
+/* Reset CSS básico */
+* {
     margin: 0;
     padding: 0;
-}
-
-header {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+  }
+  
+  header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-nav ul {
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
     list-style: none;
-}
-
-nav ul li {
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  nav ul li {
     display: inline;
     margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
+  }
+  
+  nav ul li a {
     color: #fff;
-}
-
-/* Estilos adicionais conforme necessário */
-
-.social-button {
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f7ca18;
+  }
+  
+  section {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .card a {
+    text-decoration: none;
     color: #333;
-    font-size: 20px;
-    padding-right: 5px;
-}
-
-.lattes {
-    color: white;
-    font-size: 20px;
-    padding-right: 5px;
-}
+  }
+  
+  .card img {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .social-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-right: 10px;
+  }
+  
+  .social-button:hover {
+    color: #f7ca18;
+  }
+  

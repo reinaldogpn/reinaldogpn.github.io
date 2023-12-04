@@ -47,7 +47,14 @@
         }
     ],
 
-    "publicacoes": [
+    "publications": [
+        {
+            "title": "Publicação 1",
+            "link": "https://exemplo.com/publicacao1"
+        }
+    ],
+
+    "contact": [
         {
             "title": "Publicação 1",
             "link": "https://exemplo.com/publicacao1"
